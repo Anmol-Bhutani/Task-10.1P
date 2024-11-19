@@ -214,7 +214,7 @@ code {
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
-  display: none; /* Initially hide the filter container */
+  display: none; 
 }
 
 .filter-input {
@@ -227,7 +227,7 @@ code {
 
 #random-questions {
   margin-top: 20px;
-  display: none; /* Initially hide the random questions */
+  display: none; 
   background-color: #fff;
   padding: 10px;
   border-radius: 5px;
@@ -306,24 +306,18 @@ code {
   margin-right: 5px;
 }
 
-
-/* QuestionList.css */
-
-/* Styling for the container */
 .filter-container {
   display: flex;
 
   margin-bottom: 20px;
 }
 
-/* Styling for the input boxes */
 .filter-input {
   margin-right: 10px;
   padding: 8px;
 
 }
 
-/* Styling for the filter buttons */
 .filter-button {
   background-color: #007bff;
   color: #fff;
@@ -336,7 +330,6 @@ code {
   background-color: #0056b3;
 }
 
-/* Styling for the sort and clear buttons */
 .button-container1 {
   margin-top: 10px;
 }
@@ -359,7 +352,7 @@ code {
 
 
 @font-face {
-  font-family: "iconfont"; /* Project id 3599681 */
+  font-family: "iconfont"; 
   src: url('//at.alicdn.com/t/c/font_3599681_5t82tliame6.woff2?t=1660988709459') format('woff2'),
        url('//at.alicdn.com/t/c/font_3599681_5t82tliame6.woff?t=1660988709459') format('woff'),
        url('//at.alicdn.com/t/c/font_3599681_5t82tliame6.ttf?t=1660988709459') format('truetype');
@@ -381,38 +374,29 @@ code {
   content: "\e82e";
 }
 
-
-
-/* index.css */
-
-/* Add a CSS class for the container */
 .container {
   max-width: 96%;
-  padding: 0 10px; /* Adjust padding for responsive layout */
+  padding: 0 10px; 
   box-sizing: border-box;
 }
 
-/* Style the searchTopnav section */
 .searchTopnav {
   display: flex;
   align-items: center;
-  background-color: #e0d9d9; /* Light grey background color */
+  background-color: #e0d9d9; 
   padding: 15px;
 }
 
-/* Style the label */
 .searchTopnav label {
   font-size: 20px;
   margin-right: 15px;
 }
 
-/* Style the input field */
 .custom-input {
-  flex: 1; /* Take up remaining space */
+  flex: 1; 
   padding: 5px 10px;
 }
 
-/* Style the "Post" button */
 .B3 {
   background-color: #bbb3b3;
   color: #fff;
@@ -421,7 +405,6 @@ code {
   padding: 10px 20px;
   margin-left: 10px;
   cursor: pointer;
-   /* Add a smooth transition effect */
 }
 
 h4{
@@ -429,10 +412,9 @@ h4{
 }
 
 .B3:hover {
-  background-color: #a3abb4; /* Darker blue on hover */
+  background-color: #a3abb4; 
 }
 
-/* Style the "Login" button */
 .B2 {
   background-color: #6f7470;
   color: #fff;
@@ -440,11 +422,10 @@ h4{
   padding: 10px 15px;
   margin-left: 10px;
   cursor: pointer;
-   /* Add a smooth transition effect */
 }
 
 .B2:hover {
-  background-color: #949895; /* Darker green on hover */
+  background-color: #949895; 
 }
 
 
@@ -464,8 +445,6 @@ a{
    
 }
 
-
-/* Featured*/
 h1{
   margin-left: 39.5%;
   margin-top: 10px;
@@ -504,7 +483,6 @@ h1{
   float: right;
 }
 
-
 .see{
   width:180px;
   height:30px;
@@ -516,19 +494,16 @@ h1{
   margin-top: 15px;
 }
 
-
-/*Email*/
 .foot-text{
   height:40px;
   width: auto;
   float: left;
-  /* margin-right: 30px; */
   font-size: 20px;
   
 }
 
 .Footer-last>h2 {
-  margin-left: 0; /* Remove the left margin */
+  margin-left: 0; 
 }
 
 .wrapw
@@ -539,11 +514,11 @@ h1{
 
 .Footer-last>ul {
   
-  padding: 0; /* Remove default padding for the list */
+  padding: 0; 
 }
 
 .Footer-last>ul>li {
-  display: inline-block; /* Display list items horizontally */
+  display: inline-block; 
   margin-inline: 200px;
 }
 
@@ -586,21 +561,19 @@ h1{
   margin-right: 2%;
 }
 
-
-/*Foot*/
 .wrapa {
   width: 100%;
   height: 400px;
-  background-color: rgb(94, 200, 200); /* Change the color to a darker shade */
+  background-color: rgb(94, 200, 200); 
 }
 
 .left-foot,
 .middle-foot,
 .Footer-rigthS {
-  width: 30%; /* Adjust the width to your preference */
+  width: 30%; 
   height: 300px;
   float: left;
-  margin-left: 2%; /* Adjust the margin as needed */
+  margin-left: 2%; 
 }
 
 .left-foot>ul>li {
@@ -616,39 +589,39 @@ h1{
 .last-foot {
   width: 100%;
   height: 100px;
-  margin: 0 auto; /* Center the .Footer-last horizontally */
-  text-align: center; /* Center the content inside .Footer-last */
+  margin: 0 auto; 
+  text-align: center; 
 }
 
 .last-foot {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center-align the heading */
+  align-items: center; 
 }
 
 .last-foot h2 {
-  margin-bottom: 10px; /* Add margin below the heading */
+  margin-bottom: 10px; 
 }
 
 .last-foot ul {
-  list-style: none; /* Remove bullet points from the list */
-  padding: 0; /* Remove default padding from the list */
-  margin: 0; /* Remove default margin from the list */
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
 }
 
 .last-foot li {
-  margin-right: 15px; /* Add margin between list items */
-  display: inline; /* Display list items inline */
+  margin-right: 15px;
+  display: inline; 
   margin-inline: 60px;
 }
 
 .last-foot a {
-  text-decoration: none; /* Remove underline from links */
-  color: #333; /* Set link color */
+  text-decoration: none; 
+  color: #333; 
 }
 
 .last-foot a:hover {
-  text-decoration: underline; /* Add underline on hover for links */
+  text-decoration: underline; 
 }
 
 .right-foot>h2{
